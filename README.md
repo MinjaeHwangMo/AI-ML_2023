@@ -47,6 +47,8 @@ Bar charts are used to analyze categorical data. In this scenario, we are using 
 
 Health conditions: The prevalence of health disorders such as 'Walking Difficulty', 'Torsades de Pointes', 'Asthma Status', and 'Kidney Disease' is relatively low, as indicated by the bar charts. Nevertheless, the existence of these illnesses underscores the necessity for focused healthcare interventions for individuals who are impacted.
 
+![image](https://github.com/MinjaeHwangMo/MedCarePJ_E00184/assets/153005474/ffe54b6a-f937-46b3-bcaa-0c5bfb71f30a)
+
 Age Group: The majority of individuals in our sample have a median age, neither very young (under 18) nor very old (over 80). 
 
 Lifestyle Choices: The majority of the sample are active people who exercise. However, even though a little over half of our sample does not usually smoke, we have a significant portion of our population that does.    
