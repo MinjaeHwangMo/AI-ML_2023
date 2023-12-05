@@ -51,7 +51,11 @@ Health conditions: The prevalence of health disorders such as 'Walking Difficult
 
 Age Group: The majority of individuals in our sample have a median age, neither very young (under 18) nor very old (over 80). 
 
+![image](https://github.com/MinjaeHwangMo/MedCarePJ_E00184/assets/153005474/877853e9-0387-46a0-8738-b3433fdbe46c)
+
 Lifestyle Choices: The majority of the sample are active people who exercise. However, even though a little over half of our sample does not usually smoke, we have a significant portion of our population that does.    
+
+![image](https://github.com/MinjaeHwangMo/MedCarePJ_E00184/assets/153005474/c00db89a-d941-45df-98df-2acb9ad1344b)
 
 It can be concluded that we have a population that mostly engages in sports. This may be due to their age, which allows them to continue engaging in physical activities. Additionally, the majority of the sample are non-smokers, which could explain why there are not many cases of people with difficulty walking or an abnormal heart rhythm. However, it may not be surprising if the health of this group of individuals declines a bit, as there is a significant portion of the population with the habit of smoking, which would likely affect their physical health. 
 
@@ -106,6 +110,8 @@ The Multiple Linear Regression (MLR) model exhibited the greatest R-squared valu
 
 On the other hand, the Random Forest and Ensemble Learning models produced lower R-squared values (0.05 and 0.11, respectively), suggesting that they were less successful in capturing the variability of the target variable. This result implies that, despite their intricate nature, these models may not accurately correspond to the structure of the dataset or adequately tackle its inherent intricacies.
 
+![image](https://github.com/MinjaeHwangMo/MedCarePJ_E00184/assets/153005474/2a66c99c-726c-42a1-bbe8-2c50843e3c6c)
+
 ## Mean Squared Error (MSE)
 Regarding the Mean Squared Error (MSE), our investigation produced the following findings:
 
@@ -115,6 +121,8 @@ In contrast, the Random Forest and Ensemble Learning models demonstrated higher 
 
 The variability in Mean Squared Error (MSE) values among various models offers useful insights into their predictive precision, suggesting a possible compromise between model intricacy and prediction mistake.
 
+![image](https://github.com/MinjaeHwangMo/MedCarePJ_E00184/assets/153005474/b8839b41-d8c2-495a-865c-5089e7f24f7f)
+
 ## Root Mean Squared Error (RMSE)
 The Root Mean Squared Error (RMSE) results from our models yielded the following insights:
 
@@ -123,6 +131,8 @@ The Multiple Linear Regression (MLR) model attained the minimum Root Mean Square
 Conversely, the Random Forest and Ensemble Learning models had higher RMSE values, specifically 7.86 and 7.61 respectively. These higher numbers indicate that, on average, these models made more significant errors in their forecasts. This may indicate a lower level of accuracy in these models in comparison to the MLR model.  
 
 The disparity in RMSE across the models offers valuable insights into the precision of each model's predictions, with smaller values indicating a higher degree of proximity to the actual data.
+
+![image](https://github.com/MinjaeHwangMo/MedCarePJ_E00184/assets/153005474/d4b32ac9-9a55-4075-9077-20085b759a90)
 
 ## Mean Absolute Error (MAE)
 The models yielded the Mean Absolute Error (MAE) as the outcome, which revealed the following significant findings:
@@ -134,6 +144,8 @@ By comparison, the Multiple Linear Regression (MLR) and Random Forest models exh
 The MAE measure indicates that the Ensemble Learning model has a more accurate predictive capability, with a lower average error size compared to MLR and Random Forest.
 
 Overall, Our research of the performance measures indicates that the Multiple Linear Regression (MLR) model demonstrates superior performance compared to both the Random Forest and Ensemble Learning models in this particular situation. This conclusion is based on the observation that MLR had the highest R-squared value, together with the lowest Mean Squared Error (MSE) and Root Mean Squared Error (RMSE). The findings indicate that MLR not only accounts for a larger amount of the variability in 'Physical Health', but also exhibits lower average errors and variation in its predictions compared to the more intricate models. This result demonstrates the efficacy of MLR in terms of its ability to provide both a comprehensive explanation and accurate predictions for this specific dataset and prediction job.
+
+![image](https://github.com/MinjaeHwangMo/MedCarePJ_E00184/assets/153005474/77a7b967-ca7d-413c-8851-460be71bfd01)
 
 # Conclusion
 Our research into predicting 'Physical Health' using machine learning models generated interesting results. While simple, the Multiple Linear Regression model performed very well in capturing the variance of health scores. However, as measured by the RMSE and MAE measures, this did not result in the lowest prediction errors. Ensemble Learning approaches, which incorporated the capabilities of many models, demonstrated a reduced MAE, implying a potentially more consistent and robust prediction in real-world scenarios. The heterogeneity in model performance across variables highlights the complex character of predictive modeling, in which no single model excels on all fronts.
